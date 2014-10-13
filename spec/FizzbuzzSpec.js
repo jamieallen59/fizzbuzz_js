@@ -25,7 +25,11 @@ describe("Fizzbuzz", function() {
       });
 
       it("divisible by 5", function() {
-        expect(fizzbuzz.isDivisibleByFive(2)).toEqual(false);
+        expect(fizzbuzz.isDivisibleByFive(1)).toEqual(false);
+      });
+
+      it("divisible by 15", function() {
+        expect(fizzbuzz.isDivisibleByFifteen(1)).toEqual(false);
       });
     });
 

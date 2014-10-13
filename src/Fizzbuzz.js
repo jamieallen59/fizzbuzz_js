@@ -12,7 +12,8 @@ Fizzbuzz.prototype.isDivisibleByFive = function(number) {
 };
 
 Fizzbuzz.prototype.isDivisibleByFifteen = function(number) {
-	if(number % 15 === 0) { return true };
+	if(number % 15 === 0) { return true }
+		else { return false };
 };
 
 };
