@@ -1,9 +1,9 @@
 function Fizzbuzz() {
 
 
-
 Fizzbuzz.prototype.isDivisibleByThree = function(number) {
-	if(number % 3 === 0) { return true };
+	if(number % 3 === 0) { return true } 
+		else { return false };
 };
 
 Fizzbuzz.prototype.isDivisibleByFive = function(number) {

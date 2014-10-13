@@ -5,8 +5,7 @@ describe("Fizzbuzz", function() {
     fizzbuzz = new Fizzbuzz();
   });
 
-    describe ("knows when a number is", function() {
-
+    describe("knows when a number is", function() {
       it("divisible by 3", function() {
         expect(fizzbuzz.isDivisibleByThree(3)).toEqual(true);
       });
@@ -18,7 +17,12 @@ describe("Fizzbuzz", function() {
       it("divisble by 15", function() {
         expect(fizzbuzz.isDivisibleByFifteen(15)).toEqual(true);
       });
+    });
 
+    describe("knows when a number is NOT", function() {
+      it("divisible by 3", function() {
+        expect(fizzbuzz.isDivisibleByThree(1)).toEqual(false);
+      });
     });
 
 
