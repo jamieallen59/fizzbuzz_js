@@ -10,4 +10,8 @@ Fizzbuzz.prototype.isDivisibleByFive = function(number) {
 	if(number % 5 === 0) { return true };
 };
 
+Fizzbuzz.prototype.isDivisibleByFifteen = function(number) {
+	if(number % 15 === 0) { return true };
+};
+
 };
