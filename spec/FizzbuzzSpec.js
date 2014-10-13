@@ -23,6 +23,10 @@ describe("Fizzbuzz", function() {
       it("divisible by 3", function() {
         expect(fizzbuzz.isDivisibleByThree(1)).toEqual(false);
       });
+
+      it("divisible by 5", function() {
+        expect(fizzbuzz.isDivisibleByFive(2)).toEqual(false);
+      });
     });
 
 
