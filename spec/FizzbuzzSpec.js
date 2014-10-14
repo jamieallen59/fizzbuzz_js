@@ -41,6 +41,10 @@ describe("Fizzbuzz", function() {
       it("'Buzz' if a number is divisible by five", function(){
         expect(fizzbuzz.play(5)).toEqual("Buzz");
       })
+
+      it("'FizzBuzz' if a number is divisible by fifteen", function(){
+        expect(fizzbuzz.play(15)).toEqual("FizzBuzz");
+      })
       
     });
 
