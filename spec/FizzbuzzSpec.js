@@ -33,5 +33,12 @@ describe("Fizzbuzz", function() {
       });
     });
 
+    describe("when playing, the game returns:", function(){
+      it("'Fizz' if a number is divisible by three", function(){
+        expect(fizzbuzz.play(3)).toEqual("Fizz");
+      })
+      
+    });
+
 
 });
