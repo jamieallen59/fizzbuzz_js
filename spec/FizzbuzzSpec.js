@@ -34,15 +34,19 @@ describe("Fizzbuzz", function() {
     });
 
     describe("when playing, the game returns:", function(){
-      it("'Fizz' if a number is divisible by three", function(){
+      it("'Fizz' if a number is three", function(){
         expect(fizzbuzz.play(3)).toEqual("Fizz");
       })
 
-      it("'Buzz' if a number is divisible by five", function(){
+      it("'Buzz' if a number is five", function(){
         expect(fizzbuzz.play(5)).toEqual("Buzz");
       })
 
-      it("'FizzBuzz' if a number is divisible by fifteen", function(){
+      it("'FizzBuzz' if a number is fifteen", function(){
+        expect(fizzbuzz.play(15)).toEqual("FizzBuzz");
+      })
+
+      it("the input number, if a number is 3, 5 or 15", function(){
         expect(fizzbuzz.play(15)).toEqual("FizzBuzz");
       })
       
