@@ -37,6 +37,10 @@ describe("Fizzbuzz", function() {
       it("'Fizz' if a number is divisible by three", function(){
         expect(fizzbuzz.play(3)).toEqual("Fizz");
       })
+
+      it("'Buzz' if a number is divisible by five", function(){
+        expect(fizzbuzz.play(5)).toEqual("Buzz");
+      })
       
     });
 
